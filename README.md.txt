@@ -1,9 +1,125 @@
-# ApexPlanet Data Analytics Internship
+# COVID-19 Data Analytics Project
 
-## Task 1: Exploratory Data Analysis
+## 📌 Project Overview
 
-### Dataset
-WHO COVID-19 Cases
+This project was developed as part of the **45-Day Data Analytics Internship** at **ApexPlanet Software Pvt. Ltd.**
+
+The project analyzes the **WHO COVID-19 dataset** using Python, SQL, and Power BI to extract meaningful insights, perform statistical analysis, and build interactive dashboards.
+
+---
+
+## 🎯 Objectives
+
+- Analyze real-world COVID-19 data.
+- Perform data cleaning and preprocessing.
+- Extract insights using SQL.
+- Build an interactive Power BI dashboard.
+- Conduct advanced statistical analysis.
+- Improve data visualization and analytical skills.
+
+---
+
+## 📂 Project Structure
+
+```
+apex-data-analysis/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── Task1_EDA.ipynb
+│   └── Task4_Advanced_Analytics.ipynb
+│
+├── scripts/
+│   └── task2_queries.sql
+│
+├── dashboards/
+│   └── covid_dashboard.pbix
+│
+├── reports/
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+# 📝 Task 1 – Exploratory Data Analysis (EDA)
+
+### Objective
+Perform data cleaning, preprocessing, and exploratory analysis on the WHO COVID-19 dataset.
+
+### Activities
+- Loaded the dataset using Pandas
+- Cleaned missing and duplicate values
+- Converted date columns
+- Performed exploratory data analysis
+- Created visualizations using Matplotlib and Seaborn
+- Generated insights from the data
+
+### Tools Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+# 📝 Task 2 – SQL & Data Extraction
+
+### Objective
+Store the cleaned dataset in MySQL and perform SQL-based analysis.
+
+### Activities
+- Created MySQL database and table
+- Imported cleaned dataset
+- Executed SQL queries
+- Performed aggregation, filtering, sorting, and grouping
+- Extracted meaningful insights
+
+### Tools Used
+- MySQL
+- MySQL Workbench
+- SQL
+
+---
+
+# 📝 Task 3 – Interactive Dashboard
+
+### Objective
+Develop an interactive Power BI dashboard to visualize COVID-19 trends.
+
+### Dashboard Features
+- KPI Cards
+- Daily Cases Trend
+- Top 10 Countries
+- WHO Region Distribution
+- Interactive Slicers
+- Country-wise Analysis
+
+### Tools Used
+- Microsoft Power BI
+
+---
+
+# 📝 Task 4 – Advanced Analytics
+
+### Objective
+Perform statistical analysis and identify trends in COVID-19 data.
+
+### Activities
+- Descriptive Statistics
+- Correlation Analysis
+- Distribution Analysis
+- Outlier Detection
+- Trend Analysis
+- Monthly Analysis
+- Top Countries Analysis
 
 ### Tools Used
 - Python
@@ -12,54 +128,72 @@ WHO COVID-19 Cases
 - Matplotlib
 - Seaborn
 
-### Tasks Completed
-- Data Loading
-- Data Cleaning
-- Missing Value Analysis
-- Duplicate Removal
-- Date Formatting
-- Exploratory Data Analysis
-- Data Visualization
+---
 
-### Visualizations
-- Top 10 Countries by Cases
-- Top 10 Countries by Deaths
-- Daily Global Cases Trend
-- Daily Global Deaths Trend
-- Histogram
-- Box Plot
-- Correlation Heatmap
-Task 2: SQL & Data Extraction
-Objective
+# 📊 Dataset
 
-Import the cleaned WHO COVID-19 dataset into MySQL, perform SQL-based data analysis, and extract meaningful insights.
+**WHO COVID-19 Global Cases Dataset**
 
-Activities Performed
-Created a MySQL database named covid_analysis.
-Designed the covid_cases table with appropriate data types.
-Imported the cleaned WHO COVID-19 dataset into MySQL.
-Executed SQL queries to analyze COVID-19 cases and deaths.
-Retrieved information such as total records, top affected countries, WHO region statistics, and latest reporting date.
-Organized SQL queries into a reusable task2_queries.sql script.
-Tools Used
-MySQL Server
-MySQL Workbench
-SQL
-Git & GitHub
-Key Insights
-Identified the countries with the highest cumulative COVID-19 cases.
-Identified the countries with the highest cumulative deaths.
-Compared COVID-19 statistics across WHO regions.
-Determined the latest reporting date available in the dataset.
-Extracted useful information for further visualization and dashboard creation.
-Outcome
+The dataset contains information such as:
 
-Successfully imported, managed, and analyzed the WHO COVID-19 dataset using SQL. This task strengthened practical knowledge of database design, data import, querying, aggregation, filtering, sorting, and SQL-based data analysis.
+- Date Reported
+- Country
+- WHO Region
+- New Cases
+- Cumulative Cases
+- New Deaths
+- Cumulative Deaths
 
-Git Commands
+---
 
-Once you've updated everything:
+# 🛠️ Technologies Used
 
-git add .
-git commit -m "Completed Task 2: SQL & Data Extraction"
-git push
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- MySQL
+- SQL
+- Power BI
+- Git
+- GitHub
+- Jupyter Notebook
+
+---
+
+# 📈 Key Insights
+
+- Identified countries with the highest cumulative COVID-19 cases and deaths.
+- Compared COVID-19 trends across WHO regions.
+- Built interactive dashboards for visual analysis.
+- Performed statistical analysis to understand data distribution and relationships.
+- Identified trends and outliers using visualizations.
+
+---
+
+# 🚀 Future Enhancements
+
+- Predict future COVID-19 cases using Machine Learning.
+- Develop forecasting models.
+- Deploy dashboards online.
+- Integrate live COVID-19 data APIs.
+
+---
+
+# 👩‍💻 Author
+
+**Jhansivardhini**
+
+B.Tech – Computer Science & Engineering
+
+Vardhaman College of Engineering
+
+---
+
+# 📬 Connect with Me
+
+- GitHub: *(Add your GitHub profile link)*
+- LinkedIn: *(Add your LinkedIn profile link)*
+
+---
